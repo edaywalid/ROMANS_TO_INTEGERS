@@ -9,7 +9,6 @@ public class tryf {
             put('I',1); put('V',5);put('X',10); put('L',50);put('C',100);put('D',500);
             put('M',1000);
         }};
-        String day = "V" , month = "III" , year = "MCMLXXXV" ;
         int s = 0;
         for (int i = 0; i < roman.length(); i++) {
             if (i==roman.length()-1 || romans.get(roman.charAt(i))>=romans.get(roman.charAt(i+1)) ){
